@@ -1,0 +1,137 @@
+.grid-presentacion {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #fff 70%, #ccead6 30%);
+  padding: .5rem;
+  text-align: center;
+}
+
+@media (max-width: 834px) {
+  .grid-presentacion {
+    grid-template-columns: 60% 40%;
+  }
+}
+
+.container-presentacion {
+  margin-left: 2rem;
+  padding: 2rem 1rem;
+}
+
+.container-titulo-presentacion {
+  padding: .5rem;
+}
+
+.container-titulo-presentacion h1 {
+  color: #009432;
+  font-family: Roboto;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+}
+
+@media (max-width: 834px) {
+  .container-titulo-presentacion h1 {
+    font-size: 40px;
+  }
+}
+
+.container-subtitulo-presentacion {
+  padding: .5rem;
+}
+
+.container-subtitulo-presentacion h3 {
+  color:#3D4543;
+  font-family: Roboto;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start;
+}
+
+@media (max-width: 834px) {
+  .container-subtitulo-presentacion h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-subtitulo-presentacion h3 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+
+.container-boton-presentacion {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.container-boton-presentacion button {
+  padding: .7rem 1.3rem;
+  border-radius: 2rem;
+  background: #CCEAD6;
+  color:  #009432;
+  border: none;
+  cursor: pointer;
+  margin: .5rem 0;
+  width: 80%;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .container-boton-presentacion button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.container-boton-presentacion button:hover {
+  background-color: #009432;
+  color: #ccead6;
+  transform: scale(1.03);
+  transition: .3s;
+}
+
+.container-imagen-presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-imagen-presentacion img {
+  width: 60%;
+}
+
+@media (max-width: 1024px) {
+  .container-imagen-presentacion img  {
+    width: 80%;
+  }
+}
+
+@media (max-width: 680px) {
+  .grid-presentacion {
+    grid-template-columns: 64% 36%;
+  }
+  .container-presentacion {
+    margin-left: 0;
+    padding: 2rem 1rem;
+  }
+  .container-imagen-presentacion {
+    width: 100%;
+  }
+  .container-imagen-presentacion img {
+    width: 100%;
+  }
+  .container-titulo-presentacion h1 {
+    font-size: 30px;
+  }
+  .container-subtitulo-presentacion h3 {
+    font-size: 15px;
+  }
+}

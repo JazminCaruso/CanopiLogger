@@ -1,0 +1,246 @@
+.container-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 1.4rem 4rem 0;
+    width: 100%;
+}
+
+@media (max-width: 834px) {
+    .container-historia {
+        margin-top: 6%;
+    }
+}
+
+.container-canopilogger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 580px) {
+    .container-canopilogger {
+        flex-direction: column-reverse;
+    }
+    .container-img-historia img {
+        width: 100%;
+    }
+}
+
+.container-img-historia {
+    display: flex;
+    width: 400px;
+    height: 398px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text-canopilogger {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.45rem;
+    margin-left: 5%;
+}
+
+@media (max-width: 834px) {
+    .container-text-canopilogger {
+        margin-left: 0;
+    }
+}
+
+.container-titulo-canopilogger h2 {
+    color: #009432;
+    font-family: Roboto;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .container-historia {
+        padding: 1rem 2rem 0;
+    }
+    .container-titulo-canopilogger h2 {
+        font-size: 30px;
+    }
+    .container-img-historia {
+        width: 340px;
+        height: 320px;
+    }
+    .container-img-historia img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 860px) {
+    .container-img-historia {
+        width: 260px;
+    }
+    .container-img-historia img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 680px) {
+    .container-historia {
+        margin-top: 10px;
+    }
+    .container-titulo-canopilogger h2 {
+        font-size: 28px;
+    }
+    .container-img-historia img {
+        width: 220px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container-img-historia {
+        height: 300px;
+    }
+    .container-img-historia img {
+        width: 320px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-titulo-canopilogger h2 {
+        font-size: 32px;
+    }
+    .container-img-historia {
+        height: 260px;
+    }
+    .container-img-historia img {
+        width: 290px;
+    }
+}
+
+.container-subtitulo-canopilogger p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .container-subtitulo-canopilogger p {
+        font-size: 24px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 834px) {
+    .container-subtitulo-canopilogger p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    .container-subtitulo-canopilogger p {
+        font-size: 18px
+    }
+}
+
+
+@media (max-width: 414px) {
+    .container-subtitulo-canopilogger p {
+        font-size: 15px;
+    }
+}
+
+.container-ntra-historia {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3rem;
+}
+
+@media (max-width: 414px) {
+    .container-ntra-historia {
+        margin: 0 10px;
+        margin-top: 10%;
+    }
+}
+
+.container-ntra-historia h2 {
+    color:#009432;
+    font-family: Roboto;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .container-ntra-historia h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-ntra-historia h2 {
+        font-size: 32px;
+    }
+}
+
+.container-ntra-historia p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10%;
+}
+
+.container-ntra-historia p span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .container-ntra-historia p {
+        font-size: 24px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 834px) {
+    .container-ntra-historia p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    .container-ntra-historia h2 {
+        font-size: 28px;
+    }
+    .container-ntra-historia p {
+        font-size: 18px;
+    }
+    .container-ntra-historia p span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-ntra-historia p {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .container-ntra-historia p span{
+        font-size: 15px;
+    }
+}
+

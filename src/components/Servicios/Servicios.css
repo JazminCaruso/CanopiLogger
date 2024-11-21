@@ -1,0 +1,113 @@
+.container-servicios{
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+}
+
+@media (max-width: 414px) {
+    .container-servicios{
+        margin-top: 0;
+    }
+}
+
+.img-fondo-container img {
+    width: 100%;
+}
+
+@media (max-width: 414px) {
+    .img-fondo-container img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-titulo-servicios {
+        margin: 20px;
+        margin-top: 40px;
+    }
+}
+
+.container-titulo-servicios h2{
+    color:#3D4543;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .container-titulo-servicios h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-subtitulo-servicios {
+        margin: 20px;
+    }
+}
+
+.container-subtitulo-servicios h3{
+    color:#009432;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    .container-subtitulo-servicios h3{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container-subtitulo-servicios h3{
+        font-size: 24px;
+    }
+}
+
+.container-video-servicios{
+    padding: 20px 0;
+}
+
+.container-enum-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 68px 50px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .container-enum-servicios {
+        padding: 68px 0px;
+    }
+}
+
+@media (max-width: 680px) {
+    .container-titulo-servicios h2 {
+        font-size: 26px;
+    }
+    .container-subtitulo-servicios h3 {
+        font-size: 28px;
+        padding-right: 0 10px;
+    }
+    .container-enum-servicios {
+        padding: 68px 0px;
+    }
+}
+
+@media (max-width: 579px) {
+    .container-enum-servicios {
+        flex-direction: column;
+        padding: 28px 50px;
+        gap: 40px;
+    }
+}

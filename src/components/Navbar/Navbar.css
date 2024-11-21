@@ -1,0 +1,161 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #3c4543; /* Texto negro */
+  padding: 0 4rem;
+  height: 80px;
+  position: fixed;
+  box-shadow: 1px 1px 10px #ddd;
+  z-index: 999;
+}
+
+/* Estilos para el logo */
+.navbar-left {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (max-width: 834px) {
+  .navbar-left {
+    margin-right: 5%;
+  }
+}
+
+.navbar-right {
+  height: 100%;
+  width: 58%;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+/* Estilos para la lista de navegación */
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+.nav-item {
+  padding: 14px 32px;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+  transition: color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+.nav-responsive-container {
+  display: none;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .nav-item {
+    padding: 12px 9px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .navbar-right {
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-right: 50px;
+  }
+
+  .navbar-right {
+    justify-content: flex-end;
+  }
+  .nav-item a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 680px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-responsive-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navbar {
+    padding-right: 0;
+    height: 70px;
+  }
+}
+
+.nav-item:hover {
+  background-color: #cbe9d5;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.dropdown-button button {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  color: #3c4543;
+}
+
+.dropdown-button:active {
+  background-color: transparent !important;
+}
+
+.dropdown-button .btn:hover {
+  background-color: initial;
+  border: initial;
+  color: initial;
+}
+
+.dropdown-button .btn:focus {
+  background-color: transparent;
+  border: initial;
+  color: initial;
+}
+
+.dropdown-button-split {
+  margin-right: 8px;
+}
+
+.dropdown-button a:active {
+  background-color: transparent;
+}
+
+.nav-contact {
+  background-color: #009432;
+  border-radius: 16px;
+}
+
+.nav-contact a {
+  color: #fff;
+}
+
+.nav-contact:hover {
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.nav-contact:hover a {
+  transition: 0.3s;
+  color: #009432;
+}

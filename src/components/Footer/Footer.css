@@ -1,0 +1,145 @@
+.container-footer {
+  margin-top: 36px;
+  margin-bottom: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 414px) {
+  .container-footer {
+    padding: 14px 0;
+  }
+}
+
+.container-footer-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 834px) {
+  .container-footer-left {
+    align-items: start;
+  }
+}
+
+@media (max-width: 414px) {
+  .container-footer-left {
+    width: 100%;
+    align-items: start;
+    margin-bottom: 5%;
+  }
+}
+
+.container-footer-left h2{
+  color: #3D4543;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: .9rem;
+}
+
+@media (max-width: 1024px) {
+  .container-footer-left h2{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 414px) {
+  .container-footer-left h2{
+    font-size: 20px;
+  }
+}
+
+.img-deco-rectangulo {
+  position: relative;
+  left: 0;
+}
+
+@media (max-width: 834px) {
+  .img-deco-rectangulo {
+    width: 80%;
+  }
+}
+
+@media (max-width: 414px) {
+  .img-deco-rectangulo {
+    width: 60%;
+  }
+}
+
+.container-logo {
+  position: absolute;
+  z-index: 1;
+  left: 22.5rem;
+}
+
+@media (max-width: 1024px) {
+  .container-logo{
+    left: 14rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .container-logo{
+    left: 5rem;
+  }
+}
+
+.img-canopilogo {
+  width: 13.8rem;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 500px) {
+  .container-logo{
+    left: 0;
+    margin-left: 6%;
+  }
+}
+
+@media (max-width: 580px) {
+  .img-canopilogo {
+    width: 10rem;
+    flex-shrink: 0;
+  }
+}
+
+.container-footer-right {
+  display: flex;
+  width: 17rem;
+  height: 3.25rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-shrink: 0;
+}
+
+.container-footer-right a {
+  transition: .3s;
+  filter: brightness(100%)
+}
+
+.container-footer-right a:hover {
+  transform: scale(1.1);
+  filter: brightness(120%)
+}
+
+@media (max-width: 680px) {
+  .container-footer-right a {
+    justify-content: center;
+  }
+}
+
+.container-footer-right a img {
+  width: 2.5rem;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
